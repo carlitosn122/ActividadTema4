@@ -53,7 +53,7 @@ public class AleatorioEmple {
 
 		StringBuffer buffer = null;
 		int n = apellido.length;
-
+		System.out.println("Añado una segunda linea en el metodo crear");
 		for (int i = 0; i < n; i++) {
 			file.writeInt(i + 1);
 			buffer = new StringBuffer(apellido[i]);
